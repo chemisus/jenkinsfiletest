@@ -1,5 +1,9 @@
 pipeline {
-   node {
-      echo "Hello, world!"
-   }
+    stages {
+        stage('Build') {
+            steps {
+                echo "Hello, world!"
+            }
+        }
+    }
 }
